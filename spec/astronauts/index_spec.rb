@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe "As a vistor" do
-  it "when I visit /astronauts" do
+  describe "when I visit /astronauts" do
     it "I see a list of astronauts with their info" do
       neil = Astronaut.create(name: "Neil Armstrong", age: 37, job: "Commander")
 
